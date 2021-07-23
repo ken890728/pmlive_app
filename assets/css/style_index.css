@@ -1,0 +1,32 @@
+.top {
+    font-size: 11pt;
+}
+
+.money-btn {
+    background: #283952;
+    font-size: 9pt;
+    text-align: center;
+    color: white;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+.search-input {
+    background: #283952;
+    font-size: 8pt;
+    color: white;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    border: 0;
+    padding-left: 10px;
+}
+
+.search-input::placeholder {
+    color: white;
+    font-size: 8pt;
+}
