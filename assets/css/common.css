@@ -1,12 +1,39 @@
 body {
     width: 100%;
     height: 50;
-    background-image: url("../images/background.jpeg");
+    background-image: url("../images/event.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
     color: white;
+    font-weight: 600;
+}
+
+
+/* 標題-固定位置 */
+
+.header {
+    width: 100%;
+    height: 90px;
+    font-size: 11pt;
+    position: relative;
+    background-image: url("../images/background.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+
+/* a-預設型 */
+
+a,
+a:hover,
+a:active {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .footer-block {
@@ -67,4 +94,41 @@ body {
     filter: blur(10px);
     z-index: -1;
     margin: -30px;
+}
+
+
+/* 返回鍵-不影響標題置中 */
+
+.backward {
+    position: absolute !important;
+    padding-left: 35px;
+    z-index: 1;
+}
+
+
+/* 靠邊方向 */
+
+.object-top {
+    text-align: top;
+    justify-content: start;
+}
+
+.object-left {
+    text-align: left;
+    justify-content: left;
+}
+
+.object-right {
+    text-align: right;
+    justify-content: right;
+}
+
+.object-end {
+    text-align: end;
+    justify-content: end;
+}
+
+.object-center {
+    text-align: center;
+    justify-content: center;
 }

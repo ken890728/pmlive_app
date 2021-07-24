@@ -1,0 +1,29 @@
+hr {
+    border: 1px solid white;
+    margin: 15px;
+}
+
+
+/* 主table樣式 */
+
+.container>table {
+    margin: 15px;
+    margin-top: 5px;
+}
+
+.container table img {
+    width: 100%;
+    height: 160px;
+}
+
+.container>table tr td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* 副table樣式 */
+
+.container table table {
+    width: 100%;
+}
