@@ -149,26 +149,26 @@ a:active {
 /* 靠邊方向 */
 
 .object-top {
-    text-align: top;
-    justify-content: start;
+    text-align: top !important;
+    justify-content: start !important;
 }
 
 .object-left {
-    text-align: left;
-    justify-content: left;
+    text-align: left !important;
+    justify-content: left !important;
 }
 
 .object-right {
-    text-align: right;
-    justify-content: right;
+    text-align: right !important;
+    justify-content: right !important;
 }
 
 .object-end {
-    text-align: end;
-    justify-content: end;
+    text-align: end !important;
+    justify-content: end !important;
 }
 
 .object-center {
-    text-align: center;
-    justify-content: center;
+    text-align: center !important;
+    justify-content: center !important;
 }
