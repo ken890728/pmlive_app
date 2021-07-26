@@ -1,0 +1,17 @@
+img.logo {
+    width: 75px;
+    height: 75px;
+    margin-top: 40px;
+}
+
+.row button {
+    width: -webkit-fill-available;
+    height: 50px;
+    color: #fff;
+    font-weight: 500;
+    background-color: rgba(41, 77, 112, 1);
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
