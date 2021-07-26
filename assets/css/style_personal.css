@@ -1,15 +1,3 @@
-body {
-    width: 100%;
-    height: 50;
-    background-image: url("../images/personal.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
-    color: white;
-    font-weight: 600;
-}
-
 .top {
     height: 100px;
 }
@@ -68,4 +56,81 @@ body {
 .p-count {
     font-size: 22pt;
     font-weight: 400;
+}
+
+.p-count-block2 {
+    height: 90px;
+    align-items: center;
+}
+
+.p-count-money-label {
+    padding-left: 75px;
+}
+
+.p-count-fans-label {
+    padding-left: 75px;
+}
+
+.p-count-money-value {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.p-count-fans-value {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.p-count-fans-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.p-count-fans-img1 {
+    margin-right: -25px;
+    z-index: 3;
+}
+
+.p-count-fans-img2 {
+    margin-right: -25px;
+    z-index: 2;
+}
+
+.p-count-fans-img3 {
+    z-index: 1;
+}
+
+.p-info {
+    background-color: #2a4c6b;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.p-info-title {
+    background: linear-gradient(#ea69be, #8f51b2);
+    width: 140px;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14pt;
+    font-weight: 400;
+    border-radius: 5px;
+    line-height: 30px;
+}
+
+.p-info-content {
+    font-size: 8pt;
+    font-weight: 400;
+}
+
+.p-imgs {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
 }
