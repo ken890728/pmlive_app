@@ -111,6 +111,18 @@
     font-size: 8pt;
 }
 
+.middle-icon {
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.middle-icon img {
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+}
+
 .sm-info-row {
     padding-left: 10px;
     padding-right: 10px;

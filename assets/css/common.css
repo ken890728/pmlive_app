@@ -105,6 +105,12 @@ a:active {
     margin: 0 auto;
 }
 
+.footer-icon img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
 .footer-text {
     font-size: 10pt;
     color: white;
