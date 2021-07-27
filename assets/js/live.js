@@ -13,4 +13,20 @@ $(function() {
         .catch(function(error) {
             // 如果有錯誤發生
         });
+
+    let inputVideo = document.querySelector('#camera-view');
+
+    navigator.mediaDevices.getUserMedia(constraints)
+        .then(function(stream) {
+            inputVideoURL = URL.createObjectURL(stream)
+            inputVideo.src = inputVideoURL
+            inputVideo.controls = false // 要不要顯示播放控制器
+        })
+        .catch(function(error) {
+            console.warn('some error occurred' + error)
+        });
+
+    inputVideo.addEventListener('loadedmetadata', e => {
+        inputVideo.play()
+    });
 });
