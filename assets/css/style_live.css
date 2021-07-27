@@ -1,3 +1,4 @@
+/*
 body {
     width: 100%;
     height: 50;
@@ -9,6 +10,7 @@ body {
     color: white;
     font-weight: 600;
 }
+*/
 
 html,
 body {
@@ -27,7 +29,6 @@ body {
     height: 100%;
     object-fit: cover;
     transform: rotateY(180deg);
-    opacity: 0.5;
 }
 
 .top-view-block {
@@ -59,7 +60,8 @@ body {
 }
 
 .top-view-status-img {
-    width: 70%;
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
 }
 
@@ -70,10 +72,139 @@ body {
 }
 
 .top-view-status-icon {
-    width: 70%;
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
 }
 
 .top-view-viewers-block {
+    height: 50px;
+    margin-left: -10px;
+    align-items: center;
+}
+
+.col-viewer {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-view-viewers-img {
+    width: 90%;
+    border-radius: 50%;
+}
+
+.top-view-pt-block {
+    height: 20px;
+    background-color: rgba(111, 111, 111, 0.8);
+    margin: 0;
+    font-size: 8pt;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.top-view-pt-icon-block {
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+}
+
+.top-view-pt-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.top-view-pt-value {
+    padding: 0;
     margin-left: -5px;
+}
+
+.top-view-pt-arrow {
+    text-align: right;
+}
+
+.bottom-view-block {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+}
+
+.bottom-view-input-block {
+    padding-right: 0;
+}
+
+.bottom-view-input {
+    background-color: rgba(111, 111, 111, 0.8);
+    font-size: 12pt;
+    color: white;
+    font-weight: 400;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    border: 0;
+    padding-left: 40px;
+}
+
+.bottom-view-input::placeholder {
+    font-size: 12pt;
+    color: white;
+}
+
+.bottom-view-tool-block {
+    width: 100%;
+    height: 36px;
+    align-items: center;
+    margin: 0;
+}
+
+.bottom-view-tool {
+    padding: 0;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.bottom-view-tool-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+}
+
+.bottom-bar {
+    background-color: rgba(111, 111, 111, 0.8);
+    width: 40%;
+    height: 4px;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+.bottom-mess-block {
+    height: 44px;
+    background-color: rgba(111, 111, 111, 0.8);
+    margin: 0;
+    font-size: 8pt;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: 400;
+}
+
+.bottom-mess-img-block {
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.bottom-mess-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.bottom-mess-text-block {
+    padding: 0;
 }
