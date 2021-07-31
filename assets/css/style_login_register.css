@@ -35,9 +35,10 @@ img.logo {
     border-bottom: 1px solid #fff;
 }
 
-.inputBox img {
+.inputBox .fas {
     width: 30px;
     height: 30px;
+    font-size: 24px;
 }
 
 .inputBox input {
