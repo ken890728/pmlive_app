@@ -1,34 +1,37 @@
 .top {
-    font-size: 15px;
+    font-size: 24px;
 }
 
 .money-btn {
     background: #283952;
-    font-size: 9pt;
+    font-size: 10pt;
     text-align: center;
     color: white;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border-radius: 10px;
-    margin-top: 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    margin-left: -10px;
 }
 
 .search-input {
     background: #283952;
-    font-size: 8pt;
+    font-size: 10pt;
     color: white;
-    width: 100%;
-    height: 20px;
-    line-height: 20px;
-    border-radius: 10px;
+    width: 90%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
     border: 0;
     padding-left: 25px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .search-input::placeholder {
     color: white;
-    font-size: 8pt;
+    font-size: 10pt;
 }
 
 .banner {
@@ -95,8 +98,8 @@
 }
 
 .middle-item {
-    flex: 0 0 14.2857%;
-    max-width: 14.2857%;
+    flex: 0 0 calc(100% / 6);
+    max-width: calc(100% / 6);
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -115,12 +118,7 @@
     width: 25px;
     height: 25px;
     margin: 0 auto;
-}
-
-.middle-icon img {
-    width: 25px;
-    height: 25px;
-    margin: 0 auto;
+    font-size: 20px;
 }
 
 .sm-info-row {

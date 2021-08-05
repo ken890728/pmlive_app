@@ -1,0 +1,30 @@
+.p-photos {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.p-photos .col-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.p-photo {
+    width: 100%;
+}
+
+.p-photos .col-4:nth-child(1) .p-photo {
+    border-radius: 10px 0 0 0;
+}
+
+.p-photos .col-4:nth-child(3) .p-photo {
+    border-radius: 0 10px 0 0;
+}
+
+.p-photos .col-4:nth-child(7) .p-photo {
+    border-radius: 0 0 0 10px;
+}
+
+.p-photos .col-4:nth-child(9) .p-photo {
+    border-radius: 0 0 10px 0;
+}

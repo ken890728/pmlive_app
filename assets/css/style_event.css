@@ -11,14 +11,13 @@ hr {
 /* 主table樣式 */
 
 .container>table.event {
-    margin: 5px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 5px auto;
 }
 
 .container table.event img {
     width: 100%;
     height: 155px;
+    text-align: center;
 }
 
 .container>table.event tr td {
